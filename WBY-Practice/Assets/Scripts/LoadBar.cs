@@ -15,11 +15,15 @@ public class LoadBar : MonoBehaviour {
 	public float timeToFinish;
 
 	private Transform myLoadingBar; 
+	private GameObject gm_Master;
+	private GameManager_Master gm_Master_Script;
 	
 	// Use this for initialization
 	void Start () {
 		myLoadingBar = GameObject.Find ("LoadingBar").transform;
 		StartCoroutine(reduceLoadingBarOverTime(0, 10f));
+		gm_Master = GameObject.Find("GameManager_Master");
+		gm_Master_Script = gm_Master.GetComponent<GameManager_Master>();
 	}
 
 	public IEnumerator reduceLoadingBarOverTime(float delayStart, float timeFinish){
@@ -36,7 +40,7 @@ public class LoadBar : MonoBehaviour {
 			myLoadingBar.localScale = new Vector2(barSizeX, myLoadingBar.localScale.y);
 			yield return 0;
 		}
-		GameManager_Master.LoadNextLevel();
+		gm_Master_Script.LoadNextLevel();
 		myLoadingBar.gameObject.SetActive(false);
 	}
 }
