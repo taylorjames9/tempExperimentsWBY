@@ -21,31 +21,30 @@ public class GameManager_Master : MonoBehaviour {
 //		}
 //	}
 
-
-	//
-
-	public int levelCounter;
-	List<string> allLevelNames;
+	public static int levelCounter;
+	public static List<string> allLevelNames;
 
 	void Awake(){
 		DontDestroyOnLoad(transform.gameObject);
-		//allLevelNames = 
 	}
 
 	// Use this for initialization
 	public void Start () {
 		allLevelNames = new List<string>();
 		levelCounter = 0;
-		Debug.Log (" Here is list of all level names");
-		//Debug.Log (allLevelNames.ToString());
+		Debug.Log (" Here is list of all level names "+allLevelNames.ToString());
 		allLevelNames.Add("StoryScene_1");
 		allLevelNames.Add("StoryScene_2");
 		allLevelNames.Add("StoryScene_3");
 
 	}
 	
-	public void LoadNextLevel(){
-		Application.LoadLevel(allLevelNames[levelCounter]);
+	public static void LoadNextLevel(){
 		levelCounter++;
+		Debug.Log ("LevelCounter = "+levelCounter);
+		if(levelCounter < allLevelNames.Count){
+			Application.LoadLevel(allLevelNames[levelCounter]);
+
+		}
 	}
 }

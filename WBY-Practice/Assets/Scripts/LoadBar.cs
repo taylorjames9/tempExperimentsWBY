@@ -40,7 +40,7 @@ public class LoadBar : MonoBehaviour {
 			myLoadingBar.localScale = new Vector2(barSizeX, myLoadingBar.localScale.y);
 			yield return 0;
 		}
-		gm_Master_Script.LoadNextLevel();
+		GameManager_Master.LoadNextLevel();
 		myLoadingBar.gameObject.SetActive(false);
 	}
 }
