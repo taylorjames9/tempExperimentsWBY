@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\FindAssignedPosition.cs" />
      <Compile Include="Assets\Scripts\GameManager_Master.cs" />
      <Compile Include="Assets\Scripts\GoToAssignedPosition.cs" />
+     <Compile Include="Assets\Scripts\LevelGui.cs" />
      <Compile Include="Assets\Scripts\LoadBar.cs" />
      <Compile Include="Assets\Scripts\RandomSlide_PanelManager.cs" />
  <Reference Include="UnityEngine.UI">
