@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\FindAssignedPosition.cs" />
+     <Compile Include="Assets\Scripts\GameManager_Master.cs" />
      <Compile Include="Assets\Scripts\GoToAssignedPosition.cs" />
+     <Compile Include="Assets\Scripts\LoadBar.cs" />
      <Compile Include="Assets\Scripts\RandomSlide_PanelManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
