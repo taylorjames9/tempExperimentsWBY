@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\GameManager_Master.cs" />
      <Compile Include="Assets\Scripts\GoToAssignedPosition.cs" />
      <Compile Include="Assets\Scripts\LevelGui.cs" />
+     <Compile Include="Assets\Scripts\LightFlickerScript.cs" />
+     <Compile Include="Assets\Scripts\Light_Tricks.cs" />
      <Compile Include="Assets\Scripts\LoadBar.cs" />
      <Compile Include="Assets\Scripts\RandomSlide_PanelManager.cs" />
  <Reference Include="UnityEngine.UI">
