@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Light_Tricks.cs" />
      <Compile Include="Assets\Scripts\LoadBar.cs" />
      <Compile Include="Assets\Scripts\RandomSlide_PanelManager.cs" />
+     <Compile Include="Assets\Scripts\RealTimeSinceLevelLoad.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

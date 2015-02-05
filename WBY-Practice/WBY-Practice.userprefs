@@ -1,15 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Light_Tricks.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelGui.cs">
     <Files>
       <File FileName="Assets/Scripts/FindAssignedPosition.cs" Line="14" Column="3" />
       <File FileName="Assets/Scripts/RandomSlide_PanelManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GoToAssignedPosition.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager_Master.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LoadBar.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelGui.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LightFlickerScript.cs" Line="14" Column="38" />
+      <File FileName="Assets/Scripts/GameManager_Master.cs" Line="57" Column="1" />
+      <File FileName="Assets/Scripts/LoadBar.cs" Line="76" Column="19" />
+      <File FileName="Assets/Scripts/LevelGui.cs" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/LightFlickerScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Light_Tricks.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/KenBurns.cs" Line="32" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

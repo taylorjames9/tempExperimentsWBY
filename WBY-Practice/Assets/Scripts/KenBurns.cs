@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class KenBurns : MonoBehaviour {
 
@@ -8,7 +9,6 @@ public class KenBurns : MonoBehaviour {
 
 	void Start(){
 		StartCoroutine(KenBurnsMethod (anchorPT, speed));
-
 	}
 
 	void Update() {
@@ -22,4 +22,12 @@ public class KenBurns : MonoBehaviour {
 			yield return 0;
 		}
 	}
+
+//	public IEnumerator KenBurnsSequence(Transform[] anchorPoints, float spd){
+//		while(anchorPoints !=null){
+//			float step = spd * Time.deltaTime;
+//			transform.position = Vector3.MoveTowards(transform.position, anchorPoint.position, step);
+//			yield return 0;
+//		}
+//	}
 }
