@@ -46,6 +46,7 @@
 'Assets/Scripts/FindAssignedPosition.cs'
 'Assets/Scripts/GameManager_Master.cs'
 'Assets/Scripts/GoToAssignedPosition.cs'
+'Assets/Scripts/KenBurns.cs'
 'Assets/Scripts/LevelGui.cs'
 'Assets/Scripts/LightFlickerScript.cs'
 'Assets/Scripts/Light_Tricks.cs'

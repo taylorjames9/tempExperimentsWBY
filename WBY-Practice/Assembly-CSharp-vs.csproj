@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\FindAssignedPosition.cs" />
      <Compile Include="Assets\Scripts\GameManager_Master.cs" />
      <Compile Include="Assets\Scripts\GoToAssignedPosition.cs" />
+     <Compile Include="Assets\Scripts\KenBurns.cs" />
      <Compile Include="Assets\Scripts\LevelGui.cs" />
      <Compile Include="Assets\Scripts\LightFlickerScript.cs" />
      <Compile Include="Assets\Scripts\Light_Tricks.cs" />
