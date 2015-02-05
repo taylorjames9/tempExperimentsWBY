@@ -7,7 +7,8 @@ public class LevelGui : MonoBehaviour {
 	Text levelNum;
 
 	void Awake(){
-		DontDestroyOnLoad(transform.parent.gameObject);
+		//Instead of doing this here, I'm going to make the levelGUI a child of persistent gameManager
+		//DontDestroyOnLoad(transform.parent.gameObject);
 	}
 
 	void Start () {
