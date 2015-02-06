@@ -18,7 +18,7 @@ public class LoadBar : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		timeToFinish = 10f;
+		timeToFinish = 10f;;
 		Debug.Log ("Started a new script");
 		Debug.Log ("New Time to finish this scene: "+timeToFinish);
 
